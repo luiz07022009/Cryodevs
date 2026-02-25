@@ -6,10 +6,10 @@ import { Menu, X, Snowflake } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const navLinks = [
-  { label: "Product", href: "#product" },
-  { label: "Features", href: "#features" },
-  { label: "Pricing", href: "#pricing" },
-  { label: "About", href: "#about" },
+  { label: "Produto", href: "#product" },
+  { label: "Recursos", href: "#features" },
+  { label: "Planos", href: "#pricing" },
+  { label: "Sobre", href: "#about" },
 ];
 
 export function Navbar() {
@@ -40,10 +40,10 @@ export function Navbar() {
 
         <div className="hidden items-center gap-3 md:flex">
           <Button variant="ghost" size="sm" asChild>
-            <Link href="#contact">Contact</Link>
+            <Link href="#contact">Contato</Link>
           </Button>
           <Button size="sm" asChild>
-            <Link href="#product">Try Cryoflix</Link>
+            <Link href="#product">Ver Cryoflix</Link>
           </Button>
         </div>
 
@@ -74,10 +74,10 @@ export function Navbar() {
           </ul>
           <div className="mt-4 flex flex-col gap-2">
             <Button variant="ghost" size="sm" asChild>
-              <Link href="#contact">Contact</Link>
+              <Link href="#contact">Contato</Link>
             </Button>
             <Button size="sm" asChild>
-              <Link href="#product">Try Cryoflix</Link>
+              <Link href="#product">Ver Cryoflix</Link>
             </Button>
           </div>
         </div>

@@ -1,10 +1,10 @@
 import { Snowflake } from "lucide-react";
 
 const stats = [
-  { value: "2019", label: "Founded" },
-  { value: "120+", label: "Team Members" },
-  { value: "40+", label: "Countries" },
-  { value: "10M+", label: "Users Worldwide" },
+  { value: "2024", label: "Início do projeto" },
+  { value: "Pequeno", label: "Time enxuto" },
+  { value: "Brasil", label: "Focado no contexto local" },
+  { value: "Em teste", label: "Usuários em ambiente de demo" },
 ];
 
 export function AboutSection() {
@@ -17,20 +17,19 @@ export function AboutSection() {
           </div>
           <h2 className="font-heading text-3xl font-bold tracking-tight text-foreground sm:text-4xl">
             <span className="text-balance">
-              About Cryo Devs
+              Sobre a Cryo Devs
             </span>
           </h2>
           <p className="mt-6 text-lg leading-relaxed text-muted-foreground">
-            We are a team of engineers, designers, and media technologists on a
-            mission to redefine digital entertainment. Founded with the belief
-            that streaming should be seamless, beautiful, and accessible to
-            everyone, we built Cryoflix from the ground up using cutting-edge
-            technology.
+            Somos um time de pessoas desenvolvedoras e designers que gosta de
+            construir produtos digitais bem estruturados. O Cryoflix nasceu
+            como uma aplicação de exemplo para estudar e demonstrar boas
+            práticas em aplicações de filmes.
           </p>
           <p className="mt-4 text-lg leading-relaxed text-muted-foreground">
-            Our proprietary streaming engine, edge infrastructure, and
-            AI-powered recommendation system set us apart in a crowded market.
-            We don&apos;t just stream content, we craft experiences.
+            Em vez de prometer motores de streaming proprietários, infraestrutura
+            global e sistemas de recomendação com IA, preferimos focar em um
+            código limpo, transparente e fácil de adaptar à sua realidade.
           </p>
         </div>
 

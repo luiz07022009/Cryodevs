@@ -15,9 +15,9 @@ const spaceGrotesk = Space_Grotesk({
 });
 
 export const metadata: Metadata = {
-  title: "Cryo Devs | Streaming Innovation with Cryoflix",
+  title: "Cryo Devs | Catálogo de filmes com Cryoflix",
   description:
-    "Cryo Devs builds cutting-edge streaming technology. Discover Cryoflix, our next-generation streaming platform delivering seamless entertainment worldwide.",
+    "Cryo Devs apresenta o Cryoflix, uma aplicação de catálogo de filmes simples e moderna, focada em código limpo e fácil integração com sua API.",
 };
 
 export const viewport: Viewport = {
@@ -30,7 +30,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="pt-BR">
       <body
         className={`${inter.variable} ${spaceGrotesk.variable} font-sans antialiased`}
       >

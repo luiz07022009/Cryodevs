@@ -2,28 +2,28 @@ import Link from "next/link";
 import { Snowflake } from "lucide-react";
 
 const footerLinks = {
-  Product: [
+  Produto: [
     { label: "Cryoflix", href: "#product" },
-    { label: "Features", href: "#features" },
-    { label: "Pricing", href: "#pricing" },
-    { label: "Changelog", href: "#" },
+    { label: "Recursos", href: "#features" },
+    { label: "Planos", href: "#pricing" },
+    { label: "Registro de mudanças", href: "#" },
   ],
-  Company: [
-    { label: "About", href: "#about" },
+  Empresa: [
+    { label: "Sobre", href: "#about" },
     { label: "Blog", href: "#" },
-    { label: "Careers", href: "#" },
-    { label: "Press", href: "#" },
+    { label: "Carreiras", href: "#" },
+    { label: "Imprensa", href: "#" },
   ],
-  Support: [
-    { label: "Help Center", href: "#" },
-    { label: "Contact", href: "#contact" },
+  Suporte: [
+    { label: "Central de ajuda", href: "#" },
+    { label: "Contato", href: "#contact" },
     { label: "Status", href: "#" },
-    { label: "API Docs", href: "#" },
+    { label: "Docs da API", href: "#" },
   ],
   Legal: [
-    { label: "Privacy Policy", href: "#" },
-    { label: "Terms of Service", href: "#" },
-    { label: "Cookie Policy", href: "#" },
+    { label: "Política de privacidade", href: "#" },
+    { label: "Termos de uso", href: "#" },
+    { label: "Política de cookies", href: "#" },
   ],
 };
 
@@ -41,8 +41,8 @@ export function Footer() {
               </span>
             </Link>
             <p className="mt-4 text-sm leading-relaxed text-muted-foreground">
-              Building the future of streaming technology with innovation and
-              precision.
+              Construindo aplicações de streaming e catálogo de filmes com foco
+              em clareza, organização e código de qualidade.
             </p>
           </div>
 
@@ -76,21 +76,21 @@ export function Footer() {
             <Link
               href="#"
               className="text-sm text-muted-foreground transition-colors hover:text-foreground"
-              aria-label="Cryo Devs on X (Twitter)"
+              aria-label="Cryo Devs no X (Twitter)"
             >
               X
             </Link>
             <Link
               href="#"
               className="text-sm text-muted-foreground transition-colors hover:text-foreground"
-              aria-label="Cryo Devs on GitHub"
+              aria-label="Cryo Devs no GitHub"
             >
               GitHub
             </Link>
             <Link
               href="#"
               className="text-sm text-muted-foreground transition-colors hover:text-foreground"
-              aria-label="Cryo Devs on LinkedIn"
+              aria-label="Cryo Devs no LinkedIn"
             >
               LinkedIn
             </Link>

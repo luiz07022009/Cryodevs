@@ -4,48 +4,48 @@ import { Button } from "@/components/ui/button";
 
 const plans = [
   {
-    name: "Starter",
-    price: "$9",
-    period: "/month",
-    description: "Perfect for individual viewers who want great content.",
+    name: "Básico",
+    price: "R$9",
+    period: "/mês",
+    description: "Para quem quer testar um catálogo simples de filmes.",
     features: [
-      "HD streaming (1080p)",
-      "1 device at a time",
-      "Standard audio",
-      "Basic recommendations",
-      "Mobile & desktop",
+      "Streaming em HD (1080p)",
+      "1 dispositivo por vez",
+      "Áudio padrão",
+      "Interface responsiva",
+      "Uso pessoal",
     ],
-    cta: "Start Free Trial",
+    cta: "Começar teste",
     highlighted: false,
   },
   {
-    name: "Premium",
-    price: "$19",
-    period: "/month",
-    description: "The ultimate streaming experience for the whole family.",
+    name: "Profissional",
+    price: "R$19",
+    period: "/mês",
+    description: "Para pequenos projetos que querem um catálogo organizado.",
     features: [
-      "4K Ultra HD + HDR10+",
-      "4 devices simultaneously",
-      "Dolby Atmos audio",
-      "AI-powered recommendations",
-      "Offline downloads",
-      "Family profiles",
+      "Streaming em HD",
+      "Até 3 dispositivos",
+      "Layout personalizável",
+      "Integração com API própria",
+      "Sem promessas de 4K ou IA",
+      "Suporte por e-mail",
     ],
-    cta: "Start Free Trial",
+    cta: "Começar teste",
     highlighted: true,
   },
   {
-    name: "Enterprise",
-    price: "Custom",
+    name: "Empresarial",
+    price: "Sob consulta",
     period: "",
-    description: "White-label streaming solutions for your business.",
+    description: "Para empresas que precisam adaptar o Cryoflix ao seu negócio.",
     features: [
-      "Custom branding",
-      "Dedicated infrastructure",
-      "SLA guarantee",
-      "Priority support",
-      "Analytics dashboard",
-      "API access",
+      "Branding personalizado",
+      "Possibilidade de integrações extras",
+      "Ajustes sob medida na interface",
+      "Prioridade na fila de suporte",
+      "Documentação da API",
+      "Acompanhamento técnico dedicado",
     ],
     cta: "Contact Sales",
     highlighted: false,
@@ -58,16 +58,16 @@ export function PricingSection() {
       <div className="mx-auto max-w-7xl px-6">
         <div className="mx-auto max-w-2xl text-center">
           <p className="text-sm font-semibold uppercase tracking-widest text-primary">
-            Pricing
+            Planos
           </p>
           <h2 className="mt-3 font-heading text-3xl font-bold tracking-tight text-foreground sm:text-4xl">
             <span className="text-balance">
-              Simple, transparent pricing
+              Planos simples e transparentes
             </span>
           </h2>
           <p className="mt-4 text-lg leading-relaxed text-muted-foreground">
-            Choose the plan that fits your needs. All plans include a 14-day
-            free trial.
+            Escolha o plano que faz sentido para o seu projeto. Todos os planos
+            podem ser testados antes de qualquer compromisso.
           </p>
         </div>
 
@@ -84,7 +84,7 @@ export function PricingSection() {
               {plan.highlighted && (
                 <div className="absolute -top-3 left-1/2 -translate-x-1/2">
                   <span className="rounded-full bg-primary px-3 py-1 text-xs font-semibold text-primary-foreground">
-                    Most Popular
+                    Mais escolhido
                   </span>
                 </div>
               )}

@@ -10,39 +10,39 @@ import {
 const features = [
   {
     icon: Zap,
-    title: "Lightning Fast CDN",
+    title: "Entrega rápida e estável",
     description:
-      "Content delivered through our global edge network with sub-50ms latency for buffer-free streaming.",
+      "Conteúdo servido de forma simples, focado em estabilidade para o seu catálogo de filmes.",
   },
   {
     icon: Shield,
-    title: "Enterprise Security",
+    title: "Segurança básica",
     description:
-      "AES-256 encryption, DRM protection, and SOC 2 compliance to keep your content and users safe.",
+      "Boas práticas de API e autenticação para manter seus dados de filmes protegidos.",
   },
   {
     icon: MonitorSmartphone,
-    title: "Multi-Device Sync",
+    title: "Funciona em vários dispositivos",
     description:
-      "Seamless handoff between devices. Start watching on your TV and continue on your phone.",
+      "Interface responsiva que se adapta a desktop, tablet e celular sem complicação.",
   },
   {
     icon: Globe,
-    title: "Global Reach",
+    title: "Pronto para produção simples",
     description:
-      "Streaming infrastructure across 40+ regions ensuring low-latency playback anywhere in the world.",
+      "Pensado para projetos reais com necessidades de catálogo e listagem de filmes, sem promessas exageradas.",
   },
   {
     icon: Cloud,
-    title: "Cloud-Native Architecture",
+    title: "Arquitetura enxuta",
     description:
-      "Auto-scaling infrastructure that handles millions of concurrent viewers without breaking a sweat.",
+      "Stack moderna em Next.js, React e Tailwind, fácil de manter e evoluir.",
   },
   {
     icon: BarChart3,
-    title: "Real-Time Analytics",
+    title: "Visão do catálogo",
     description:
-      "Deep insights into viewer engagement, content performance, and quality of experience metrics.",
+      "Organização clara de seções para você entender e evoluir o catálogo conforme a sua necessidade.",
   },
 ];
 
@@ -52,16 +52,17 @@ export function FeaturesSection() {
       <div className="mx-auto max-w-7xl px-6">
         <div className="mx-auto max-w-2xl text-center">
           <p className="text-sm font-semibold uppercase tracking-widest text-primary">
-            Platform Capabilities
+            Recursos da plataforma
           </p>
           <h2 className="mt-3 font-heading text-3xl font-bold tracking-tight text-foreground sm:text-4xl">
             <span className="text-balance">
-              Built for scale, designed for speed
+              Pensado para ser simples e direto
             </span>
           </h2>
           <p className="mt-4 text-lg leading-relaxed text-muted-foreground">
-            Every layer of Cryoflix is engineered to deliver exceptional
-            streaming experiences at any scale.
+            Cada parte do Cryoflix foi projetada para ser fácil de entender,
+            integrar e adaptar ao seu cenário, sem depender de infraestrutura
+            complexa ou recursos de última geração.
           </p>
         </div>
 
