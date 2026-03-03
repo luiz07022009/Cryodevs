@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 const plans = [
   {
     name: "Básico",
-    price: "R$9",
+    price: "R$20,90",
     period: "/mês",
     description: "Para quem quer testar um catálogo simples de filmes.",
     features: [
@@ -20,7 +20,7 @@ const plans = [
   },
   {
     name: "Profissional",
-    price: "R$19",
+    price: "R$44,90",
     period: "/mês",
     description: "Para pequenos projetos que querem um catálogo organizado.",
     features: [
